@@ -19,6 +19,7 @@
     'currency': 'USD',
     'support': "ondevelop.sa@gmail.com",
     'depends': ['base', 'sale', 'crm', 'account'],
+    'images': ['static/description/crm_sale_history_cover.png'],
     'data': [
         # 'security/ir.model.access.csv',
         'views/crm_lead.xml',
