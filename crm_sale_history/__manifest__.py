@@ -6,8 +6,8 @@
 {
     'name': "crm_sale_history",
     'summary': """
-    Add fields in the CRM lead creation for evaluate the cliente using the
-    sales transactions.
+    Add fields in the CRM lead creation for evaluate the client using the
+    old sales transactions.
     """,
     'description': """""",
     'author': "onDevelop.SA",
