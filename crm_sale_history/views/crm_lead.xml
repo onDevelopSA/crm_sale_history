@@ -1,0 +1,17 @@
+<odoo>
+  <record id="kanban_crm_lead_inh" model="ir.ui.view">
+    <field name="name">kanban.crm.lead.inherited</field>
+    <field name="model">crm.lead</field>
+    <field name="inherit_id" ref="crm.quick_create_opportunity_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//form/group/field[@name='planned_revenue']" position="after">
+	<group>
+          <field name="total_invoiced" string="Total Invoiced" readonly='1'/>
+          <field name="invoice_due" string="Invoice Due" readonly='1'/>
+	</group>
+        <field name="pay_percentage" string="Paid Percentage"
+	       nolabel="1" widget="percentpie"/>
+      </xpath>
+    </field>
+  </record>
+</odoo>
