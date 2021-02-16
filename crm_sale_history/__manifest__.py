@@ -6,8 +6,8 @@
 {
     'name': "crm_sale_history",
     'summary': """
-    Add fields in the CRM lead creation for evaluate the client using the
-    old sales transactions.
+    Add the Total Invoiced, Total Due, Paid Percentage of the customer in CRM
+    Leads.
     """,
     'description': """""",
     'author': "onDevelop.SA",
