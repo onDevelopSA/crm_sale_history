@@ -1,4 +1,5 @@
-# © 2021 onDevelop.sa
+# © 2021 onDevelop.SA
+# ondevelop.sa@gmail.com
 # Autor: Idelis Gé Ramírez
 
 from odoo import fields, models, api, _
