@@ -4,10 +4,9 @@
 # Part of onDevelop.SA. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': "crm_sale_history",
+    'name': "Customer Sales History",
     'summary': """
-    Add the Total Invoiced, Total Due, Paid Percentage of the customer in CRM
-    Leads.
+    Show a brief Sale History of the customer in the crm opportunity.
     """,
     'description': """""",
     'author': "onDevelop.SA",
